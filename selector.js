@@ -52,7 +52,7 @@ const teams = [
       { name: "Ruturaj Gaikwad", role: "Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/102.png" },
       { name: "Dewald Brevis", role: "Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/797.png" },
       { name: "Ayush Mhatre", role: "Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/3497.png" },
-      { name: "Kartik Sharma", role: "WK-Batter", imageUrl: "/images/kartik-sharma.png" },
+      { name: "Kartik Sharma", role: "WK-Batter", imageUrl: "images/kartik-sharma.png" },
       { name: "Sarfaraz Khan", role: "Batter", imageUrl: "images/sarf.png" },
       { name: "Urvil Patel", role: "WK-Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/1486.png" },
 
