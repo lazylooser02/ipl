@@ -48,22 +48,22 @@ const teams = [
     players: [
       // Batters & WK-Batters
       { name: "MS Dhoni", role: "WK-Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/57.png" },
-      { name: "Sanju Samson", role: "WK-Batter", imageUrl: "/images/sanju.png" },
+      { name: "Sanju Samson", role: "WK-Batter", imageUrl: "https://lazylooser02.github.io/ipl/images/sanju.png" },
       { name: "Ruturaj Gaikwad", role: "Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/102.png" },
       { name: "Dewald Brevis", role: "Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/797.png" },
       { name: "Ayush Mhatre", role: "Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/3497.png" },
-      { name: "Kartik Sharma", role: "WK-Batter", imageUrl: "images/kartik-sharma.png" },
-      { name: "Sarfaraz Khan", role: "Batter", imageUrl: "images/sarf.png" },
+      { name: "Kartik Sharma", role: "WK-Batter", imageUrl: "https://lazylooser02.github.io/ipl/images/kartik-sharma.png" },
+      { name: "Sarfaraz Khan", role: "Batter", imageUrl: "https://lazylooser02.github.io/ipl/images/sarf.png" },
       { name: "Urvil Patel", role: "WK-Batter", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/1486.png" },
 
       // All-Rounders
       { name: "Anshul Kamboj", role: "All-Rounder", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/3106.png" },
       { name: "Jamie Overton", role: "All-Rounder", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/1216.png" },
       { name: "Ramakrishna Ghosh", role: "All-Rounder", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/3559.png" },
-      { name: "Prashant Veer", role: "All-Rounder", imageUrl: "/images/Prashat-veer.png" },
-      { name: "Matthew William Short", role: "All-Rounder", imageUrl: "/images/short.png" },
-      { name: "Aman Khan", role: "All-Rounder", imageUrl: "/images/aman.png" },
-      { name: "Zak Foulkes", role: "All-Rounder", imageUrl: "/images/zak.png" },
+      { name: "Prashant Veer", role: "All-Rounder", imageUrl: "https://lazylooser02.github.io/ipl/images/Prashat-veer.png" },
+      { name: "Matthew William Short", role: "All-Rounder", imageUrl: "https://lazylooser02.github.io/ipl/images/short.png" },
+      { name: "Aman Khan", role: "All-Rounder", imageUrl: "https://lazylooser02.github.io/ipl/images/aman.png" },
+      { name: "Zak Foulkes", role: "All-Rounder", imageUrl: "https://lazylooser02.github.io/ipl/images/zak.png" },
       { name: "Shivam Dube", role: "All-Rounder", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/211.png" },
 
       // Bowlers
@@ -73,9 +73,9 @@ const teams = [
       { name: "Nathan Ellis", role: "Bowler", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/633.png" },
       { name: "Shreyas Gopal", role: "Bowler", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/192.png" },
       { name: "Gurjapneet Singh", role: "Bowler", imageUrl: "https://documents.iplt20.com/ipl/IPLHeadshot2025/2256.png" },
-      { name: "Akeal Hosein", role: "Bowler", imageUrl: "/images/akeal.png" },
-      { name: "Matt Henry", role: "Bowler", imageUrl: "/images/henry.png" },
-      { name: "Rahul Chahar", role: "Bowler", imageUrl: "/images/rahul.png" },
+      { name: "Akeal Hosein", role: "Bowler", imageUrl: "https://lazylooser02.github.io/ipl/images/akeal.png" },
+      { name: "Matt Henry", role: "Bowler", imageUrl: "https://lazylooser02.github.io/ipl/images/henry.png" },
+      { name: "Rahul Chahar", role: "Bowler", imageUrl: "https://lazylooser02.github.io/ipl/images/rahul.png" },
     ],
   },
   {
