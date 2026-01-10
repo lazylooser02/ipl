@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IPL Playing XI & Impact Selector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <h1>IPL Playing XI + Impact Selector</h1>
+        <p class="subtitle">
+          Pick your best Playing XI and 1 Impact player from the given squad. Use the
+          strong XI shortcut if you want a pre-filled combination.
+        </p>
+        <div id="teamSelector" class="team-selector"></div>
+      </header>
+
+      <main class="layout">
+        <section class="panel panel-left">
+          <div class="panel-header">
+            <h2>Squad</h2>
+            <select id="roleFilter" class="filter-select">
+              <option value="ALL">All Roles</option>
+              <option value="Batter">Batters</option>
+              <option value="WK-Batter">WK-Batters</option>
+              <option value="All-Rounder">All-Rounders</option>
+              <option value="Bowler">Bowlers</option>
+            </select>
+          </div>
+          <div class="player-list" id="playerList"></div>
+        </section>
+
+        <section class="panel panel-right">
+          <div class="panel-header">
+            <h2>Your Combination</h2>
+            <div class="actions">
+              <button id="btnStrongXI" class="btn primary">Fill Strong XI</button>
+              <button id="btnSaveStrongXI" class="btn secondary">Save as Strong XI</button>
+              <button id="btnClearAll" class="btn ghost">Clear All</button>
+            </div>
+          </div>
+
+          <div class="summary" id="summaryBar"></div>
+
+          <div class="selections">
+            <div class="selection-block">
+              <div class="selection-header">
+                <h3>Playing XI <span id="playingCount">(0 / 11)</span></h3>
+                <button id="btnClearPlaying" class="btn tiny ghost">Clear XI</button>
+              </div>
+              <ol id="playingList" class="selection-list playing-list"></ol>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="selector.js"></script>
+  </body>
+  </html>
+
+
